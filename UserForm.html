@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/UserFrom.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img src="./images/submitted.png">
+
+    <form name="myForm">
+
+        <h1>User Form</h1>
+
+        <!--The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.-->
+        <label for="fname">User FirstName :</label>
+        <input type="text" id="fname" required> 
+        <br>
+        <label for="lname">User LastName :</label>
+        <input type="text" id="lname" required>
+    <div class="mygender"> 
+  
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender">
+        <br>
+    </div>
+        <label for="email">User Email:</label>
+        <input id="email" type="email" required>
+        <br>
+
+        <button type="submit">Submit</button>
+
+        <script src="./js/UserForm.js"></script>
+</body>
+</html>

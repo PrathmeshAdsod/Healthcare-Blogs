@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#content {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 90px;
+}
+
+#para {
+    height: 400px;
+    width: 300px;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    
+}
+#para div {
+    padding: 20px;
+}
+#para h1 {
+    font-size: 35px;
+    letter-spacing: 9px;
+    color: blue;
+    text-decoration: underline;
+}
+.social-media {
+    display: flex;
+   
+  
+    padding: 4px;
+}
+.social-media i {
+    padding: 3px 20px;
+}
+.social-media i:hover {
+    transform: scale(1.2);
+}
+

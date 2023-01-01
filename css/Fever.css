@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.Navbar ul {
+    margin: 20px 120px;
+   
+    list-style-type: none;
+    
+}
+.Navbar ul li {
+    float: left;
+    background-color: #d83f87;
+}
+.Navbar ul li a {
+    display: block;   
+    padding: 9px;
+    color:black;
+}
+.Navbar ul li:hover {
+    float: left;
+    background-color: #f50675; 
+}
+.Navbar ul li a:hover {
+   color: white;
+}
+ #feverimg {
+    width: 250px;
+    height: 250px;
+
+    
+    /* To center an Image */
+    display: block;
+    margin: auto auto;
+   
+}
+
+#fever-para {
+    margin: 50px 90px;
+    font-size: 22px;
+    color: black;
+    font-family: monospace;
+}
